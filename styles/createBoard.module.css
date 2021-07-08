@@ -1,0 +1,31 @@
+.paper {
+    padding: 50px;
+}
+
+.input {
+    width: 80%;
+}
+
+.textarea {
+    width: 80%;
+    height: 300px;
+}
+
+.plyerBoxSize {
+    width: 90px;
+    height: 180px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.teamLine {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.iconStyle {
+    cursor: 'pointer';
+    display: 'flex';
+}

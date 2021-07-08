@@ -1,0 +1,32 @@
+.paperStyle {
+  padding: 10px;
+  margin: 20px;
+}
+
+.paperContainer {
+  display: 'flex';
+  justify-content: 'space-between';
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #326295;
+  padding: 5px;
+}
+
+.pagination {
+  text-align: center;
+  justify-content: center;
+}
+
+.pagination > ul {
+  display: flex;
+  list-style: none;
+}
+
+.pagination > li {
+  list-style: none;
+  padding: 10px;
+  color: #326295;
+  cursor: pointer;
+}
