@@ -16,7 +16,7 @@ const PlayerBox = ({ _id , no, name, club, logo } : PlayerType) => {
                 {no ? <img src={`../players/player${no}.jpg`} /> : <div></div>}
             </CardMedia>
             <CardContent>
-                {name ? <Typography style={{ fontSize: '3px' }}>{name}</Typography> : <div></div>}
+                {name ? <Typography style={{ fontSize: '0.8rem' }}>{name}</Typography> : <div></div>}
             </CardContent>
         </div>
     )

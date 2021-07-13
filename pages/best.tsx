@@ -97,6 +97,11 @@ const Best = ({boards}: HomeBoardType) => {
   
     return (
       <div className="App">
+          <Head>
+            <title>MyBest11</title>
+            <meta name="description" content="make your own best11" />
+            <link rel="icon" href="/favicon.ico" />
+          </Head>
           {displayedBoards}
           <div className={styles.pagination}>
           <ReactPaginate
